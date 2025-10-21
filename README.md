@@ -29,7 +29,6 @@ e. `data_encoding.py`: Generates dummies for ethnicity column (One hot encoding)
 
 f. `data_binary.py`: Create a binary variable for gender M/F.
 
-g. `pred_auc_score.py`: Trains a model in the train data, using as features the columns: 'age', 'height', 'weight', 'aids', 'cirrhosis', 'hepatic_failure', 'immunosuppression', 'leukemia', 'lymphoma', 'solid_tumor_with_metastasis'. It also use as target the column: 'diabetes_mellitus'.
-After training the model with the train data, it predicts the targets for both the train and test sets and add the prediction as a new column (uses predict_proba from the model to get the predicted probabilities); the new column is called 'predictions'.
+g. & h. `data_train_model.py`: Trains a model in the train data, using as features the columns: 'age', 'height', 'weight', 'aids', 'cirrhosis', 'hepatic_failure', 'immunosuppression', 'leukemia', 'lymphoma', 'solid_tumor_with_metastasis'. It also use as target the column: 'diabetes_mellitus'. After training the model with the train data, it predicts the targets for both the train and test sets and add the prediction as a new column (uses predict_proba from the model to get the predicted probabilities); the new column is called 'predictions'.
 
 i. `data_metrics.py`: Computes the train and test roc_auc metric using roc_auc_score from sklearn.
