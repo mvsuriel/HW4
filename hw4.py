@@ -7,18 +7,18 @@
 #  "Hakuna matata", "Timon, Pumba and Simba are friends, but Simba could eat the other two."] 
 #
 
-def count_simba(list):
+def count_simba(lines):
     count = 0
-    for item in list:
+    for item in lines:
         count += item.count("Simba")
     return count
 
-list = ["Simba and Nala are lions.", 
+example = ["Simba and Nala are lions.", 
               "I laugh in the face of danger.", 
               "Hakuna matata", 
               "Timon, Pumba and Simba are friends, but Simba could eat the other two."] 
 
-print(count_simba(list))
+print(count_simba(example))
     
 
 # 2)
@@ -81,7 +81,7 @@ print(f"{compute_distance(coords)} km")
 def sum_general_int_list(general_list):
     total = 0
     for item in general_list:
-        if isinstance(item, list):
+        if type(item) is list:
             total += sum_general_int_list(item)
         else:
             total += item
