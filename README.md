@@ -17,7 +17,7 @@ All the operations with the functions can be revised in the file `exercise6.ipyn
 
 All the functions to operate the library are in the folder process_data; this folder contains the structure to operate all functions inside a library called "process_data".
 
-The structure of the library can be seen in the file `library_structure.txt`.
+An attempt to create this structure as a function can be consulted [here](https://github.com/ElvisCasco/hw4); also, there are another ways to formulate the same functions from this repo.
 
 a. `data_loader.py`: Loads the data.
 
