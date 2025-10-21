@@ -11,7 +11,9 @@ In this exercise we practiced functions.
 
 The results of the questions 1 to 4 are in the file `hw4_solutions.py`.
 
-This repository creates a library to do the following steps (using a `.py` file, containing functions with the same name) to perform data analysis from a CSV file.
+This repository creates a library structure to do the following steps (using a `.py` file, containing functions with the same name) to perform data analysis from a CSV file.
+
+All the operations with the functions can be revised in the file `exercise6.ipynb`.
 
 All the functions to operate the library are in the folder process_data; this folder contains the structure to operate all functions inside a library called "process_data".
 
